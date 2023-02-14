@@ -1,27 +1,41 @@
 body {
+	font-size: 1.2em;
 	font-family: Arial, sans-serif;
 	margin: 0;
 	padding: 0;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
 }
 
 header {
-	background-color: lightblue;
+	background-color: #333;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 80px;
+	height: 100px;
+	color: white;
+	font-size: 20px;
+	
 }
 
 	header h1 {
-		margin: 0;
 	}
 
+title {
+	color: white;
+	font-size: 24px;
+}
+
 nav ul {
+	background-color: #333;
 	display: flex;
 	justify-content: center;
 	list-style: none;
-	margin: 0;
+	margin: 200px;
 	padding: 0;
+	float: left;
+	color: black;
 }
 
 nav a {
@@ -33,6 +47,7 @@ nav a {
 
 main {
 	padding: 2em;
+	flex: 1;
 }
 
 section {
@@ -44,7 +59,7 @@ section {
 	}
 
 footer {
-	background-color: lightblue;
+	background-color: #333;
 	display: flex;
 	justify-content: center;
 	align-items: center;
